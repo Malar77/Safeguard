@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Backend: Start FastAPI",
+			"type": "shell",
+			"command": "& 'C:\\Users\\jayam\\Downloads\\Ai\\.venv\\Scripts\\python.exe' run_server.py",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+node_modules/
+.expo/
+dist/
+web-build/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+# This is intentionally NOT ignoring credentials.json and safeguard.keystore
+# so EAS local build can read them. For production apps, use remote credentials.

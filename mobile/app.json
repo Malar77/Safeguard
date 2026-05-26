@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "SafeGuard",
+    "slug": "safeguard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9d174d"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safeguard.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SafeGuard needs your location to send SOS alerts with GPS coordinates.",
+        "NSLocationAlwaysUsageDescription": "SafeGuard uses your location for emergency SOS alerts."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#9d174d"
+      },
+      "package": "com.safeguard.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "SafeGuard needs location access for SOS emergency alerts."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0",
+            "kotlinVersion": "1.9.23"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "175b43a3-03bb-40a7-ad55-a8ebee40ea6d"
+      }
+    },
+    "owner": "malar23"
+  }
+}

@@ -1,0 +1,11 @@
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+backend/__pycache__/
+backend/routers/__pycache__/
+backend/safeguard.db
+frontend/node_modules/
+frontend/build/
+.venv/
+*.pyc

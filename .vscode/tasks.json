@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Backend",
+			"type": "shell",
+			"command": "& 'C:\\Users\\jayam\\Downloads\\Ai\\.venv\\Scripts\\python.exe' -c \"import sys; sys.path.insert(0,'C:/Users/jayam/Downloads/Ai/backend'); import uvicorn; uvicorn.run('main:app', host='127.0.0.1', port=8000, reload=True)\"",
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
